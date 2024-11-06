@@ -1,0 +1,7 @@
+.header__chess_first {
+    position: absolute;
+    top: 166px;
+    right: 438px;
+    width: 141px;
+    z-index: 4;
+}

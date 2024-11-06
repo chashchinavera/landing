@@ -6,5 +6,22 @@
 
 /*header*/
 @import url(../block/header/header.css);
+@import url(../block/header/__backgroud/header__backgroud.css);
+@import url(../block/header/__container/header__container.css);
+@import url(../block/header/__ellipse/header__ellipse.css);
+@import url(../block/header/__chess/_first/header__chess_first.css);
+@import url(../block/header/__chess/_second/header__chess_second.css);
+@import url(../block/header/__chess/_third/header__chess_third.css);
+@import url(../block/header/__chess/_fourth/header__chess_fourth.css);
+@import url(../block/header/__city/header__city.css);
+@import url(../block/header/__stroke/header__stroke.css);
+@import url(../block/header/__inscription/header__inscription.css);
+@import url(../block/header/__content/header__content.css);
 @import url(../block/header/__logo/header__logo.css);
 @import url(../block/header/__title/header__title.css);
+@import url(../block/header/__title/_center/header__title_center.css);
+@import url(../block/header/__subtitle/header__subtitle.css);
+@import url(../block/header/__buttons/header__buttons.css);
+@import url(../block/header/__button/header__button.css);
+@import url(../block/header/__button/_support/header__button_support.css);
+@import url(../block/header/__button/_details/header__button_details.css);

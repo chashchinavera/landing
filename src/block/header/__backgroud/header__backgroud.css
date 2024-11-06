@@ -1,0 +1,9 @@
+.header__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 700px;
+    width: 100%;
+    z-index: 13;
+    mix-blend-mode: color-burn;
+}

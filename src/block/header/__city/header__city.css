@@ -1,0 +1,8 @@
+.header__city {
+    position: absolute;
+    top: 269px;
+    right: 135px;
+    z-index: 12;
+    width: 1624px;
+    height: 432px;
+}

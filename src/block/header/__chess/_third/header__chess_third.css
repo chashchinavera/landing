@@ -1,0 +1,6 @@
+.header__chess_third {
+    position: absolute;
+    z-index: 14;
+    top: 558px;
+    right: 320px;
+}

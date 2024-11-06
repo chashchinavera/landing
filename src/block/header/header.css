@@ -4,11 +4,6 @@
     box-sizing: border-box;
     height: 700px;
     width: 100%;
-    padding: 25.5px 349px 0;
-    background-image: url(../../images/header/header-1920.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: color-burn;
     background-color: #E9DED4;
+    position: relative;
 }

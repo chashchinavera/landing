@@ -1,0 +1,6 @@
+.header__stroke {
+    position: absolute;
+    top: 260px;
+    right: 158px;
+    z-index: 12;
+}

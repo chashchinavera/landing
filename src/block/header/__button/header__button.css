@@ -1,0 +1,14 @@
+.header__button {
+    font-family: 'GolosText', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #1F1F1F;
+    max-width: 263px;
+    height: 72px;
+    border-radius: 66px;
+    padding: 13.5px 49px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}

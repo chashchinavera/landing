@@ -10,11 +10,78 @@
   <body class="page">
     <header class="header">
       <img
-        class="header__logo"
-        src="<%=require('./images/header/logo.svg')%>"
-        alt="Логотип"
+        class="header__background"
+        src="<%=require('./images/header/header-1920.png')%>"
+        alt="Фон"
       />
-      <h1 class="header__title">Превратите уездный город в&nbsp;столицу земного шара</h1>
+      <div class="header__container">
+        <img
+          class="header__ellipse"
+          src="<%=require('./images/header/ellipse.svg')%>"
+          alt="Эллипс"
+        />
+        <img
+          class="header__chess_first"
+          src="<%=require('./images/header/chess1.png')%>"
+          alt="Фигура"
+        />
+        <img
+          class="header__chess_second"
+          src="<%=require('./images/header/chess2.png')%>"
+          alt="Фигура"
+        />
+        <img
+          class="header__chess_third"
+          src="<%=require('./images/header/chess3.png')%>"
+          alt="Фигура"
+        />
+        <img
+          class="header__chess_fourth"
+          src="<%=require('./images/header/chess4.png')%>"
+          alt="Фигура"
+        />
+        <img
+          class="header__inscription"
+          src="<%=require('./images/header/inscription.svg')%>"
+          alt="Надпись"
+        />
+        <img
+          class="header__city"
+          src="<%=require('./images/header/city.png')%>"
+          alt="Город"
+        />
+        <img
+          class="header__stroke"
+          src="<%=require('./images/header/stroke.png')%>"
+          alt="Обводка"
+        />
+
+        <div class="header__content">
+          <img
+            class="header__logo"
+            src="<%=require('./images/header/logo.svg')%>"
+            alt="Логотип"
+          />
+          <h1 class="header__title">
+            Превратите уездный город
+            <span class="header__title_center"
+              >в&nbsp;столицу земного шара</span
+            >
+          </h1>
+          <h2 class="header__subtitle">
+            Оплатите взнос на&nbsp;телеграммы для&nbsp;организации
+            Международного васюкинского турнира по&nbsp;шахматам
+          </h2>
+          <div class="header__buttons">
+            <button class="header__button header__button_support" type="button">
+              Поддержать шахматную&nbsp;мысль
+            </button>
+            <button class="header__button header__button_details" type="button">
+              Подробнее о турнире
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>

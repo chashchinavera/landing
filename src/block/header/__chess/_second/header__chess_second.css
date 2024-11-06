@@ -1,0 +1,7 @@
+.header__chess_second {
+    position: absolute;
+    top: 270px;
+    right: 782px;
+    width: 132px;
+    z-index: 3;
+}
