@@ -1,7 +1,22 @@
 .header__chess_first {
     position: absolute;
     top: 166px;
-    right: 438px;
+    left: 1342px;
     width: 141px;
     z-index: 4;
+}
+
+@media (max-width: 1919px) {
+    .header__chess_first {
+        left: 1065px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__chess_first {
+        top: 500px;
+        left: 230px;
+        width: 60px;
+        rotate: 7deg;
+    }
 }

@@ -2,5 +2,19 @@
     position: absolute;
     z-index: 14;
     top: 481px;
-    right: 610px;
+    left: 1114px;
+}
+
+@media (max-width: 1919px) {
+    .header__chess_fourth {
+        left: 836px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__chess_fourth {
+        top: 660px;
+        left: 146px;
+        width: 100px;
+    }
 }

@@ -2,5 +2,18 @@
     position: absolute;
     z-index: 14;
     top: 558px;
-    right: 320px;
+    left: 1516px;
+    display: block;
+}
+
+@media (max-width: 1919px) {
+    .header__chess_third {
+        left: 1239px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__chess_third {
+        display: none;
+    }
 }

@@ -1,8 +1,24 @@
 .header__city {
     position: absolute;
-    top: 269px;
-    right: 135px;
+    top: 270px;
+    left: 162px;
     z-index: 12;
     width: 1624px;
     height: 432px;
+}
+
+@media (max-width: 1919px) {
+    .header__city {
+        left: -117px;
+        top: 267px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__city {
+        width: 886px;
+        height: 247px;
+        top: 538px;
+        left: -401px;
+    }
 }

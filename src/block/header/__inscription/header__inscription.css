@@ -1,9 +1,24 @@
 .header__inscription {
     position: absolute;
     top: -50px;
-    right: 250px;
+    left: 892px;
     width: 775px;
     height: 770px;
     z-index: 11;
     mix-blend-mode: overlay;
+}
+
+@media (max-width: 1919px) {
+    .header__inscription {
+        left: 614px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__inscription {
+        top: 407px;
+        left: 5px;
+        width: 352px;
+        height: 352px;
+    }
 }

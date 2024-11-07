@@ -1,7 +1,21 @@
 .header__chess_second {
     position: absolute;
     top: 270px;
-    right: 782px;
+    left: 1007px;
     width: 132px;
     z-index: 3;
+}
+
+@media (max-width: 1919px) {
+    .header__chess_second {
+        left: 729px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__chess_second {
+        top: 541px;
+        left: 63px;
+        width: 60px;
+    }
 }

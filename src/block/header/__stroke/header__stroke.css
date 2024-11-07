@@ -1,6 +1,21 @@
 .header__stroke {
     position: absolute;
-    top: 260px;
-    right: 158px;
-    z-index: 12;
+    top: 259px;
+    left: 158px;
+    z-index: 13;
+}
+
+@media (max-width: 1919px) {
+    .header__stroke {
+        left: -120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__stroke {
+       left: -403px;
+       top: 532px;
+       width: 875px;
+       height: 253px;
+    }
 }

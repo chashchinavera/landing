@@ -7,3 +7,9 @@
     z-index: 13;
     mix-blend-mode: color-burn;
 }
+
+@media (max-width: 768px) {
+    .header__background {
+        height: 774px;
+    }
+}
