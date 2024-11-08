@@ -1,0 +1,15 @@
+.marquee {
+    box-sizing: border-box;
+    height: 61px;
+    width: 100%;
+    background-color: #F54932;
+    margin: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .marquee {
+        height: 38px;
+    }
+}
