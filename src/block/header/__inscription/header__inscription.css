@@ -1,9 +1,8 @@
 .header__inscription {
     position: absolute;
-    top: -50px;
+    top: 0px;
     left: 892px;
     width: 775px;
-    height: 770px;
     z-index: 11;
     mix-blend-mode: overlay;
 }

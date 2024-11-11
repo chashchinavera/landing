@@ -1,0 +1,13 @@
+.events__wrapper {
+    display: block;
+    width: calc(100% - 456px);
+}
+
+@media (max-width: 900px) {
+    .events__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

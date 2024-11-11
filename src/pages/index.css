@@ -26,7 +26,20 @@
 @import url(../block/header/__button/_support/header__button_support.css);
 @import url(../block/header/__button/_details/header__button_details.css);
 
+/*main*/
+@import url(../block/main/main.css);
+
 /*marquee*/
 @import url(../block/marquee/marquee.css);
 @import url(../block/marquee/__wrapper/marquee__wrapper.css);
 @import url(../block/marquee/__text/marquee__text.css);
+
+/*events*/
+@import url(../block/events/events.css);
+@import url(../block/events/__wrapper/events__wrapper.css);
+@import url(../block/events/__text/events__text.css);
+@import url(../block/events/__text/_mark/events__text_mark.css);
+@import url(../block/events/__container/events__container.css);
+@import url(../block/events/__image/events__image.css);
+@import url(../block/events/__image/_background/events__image_background.css);
+

@@ -1,0 +1,19 @@
+.events__image_background {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 394px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    mix-blend-mode: color-burn;
+}
+
+@media (max-width: 900px) {
+    .events__image_background {
+        width: 335px;
+        height: 213px;
+        top: 0;
+        left: 0;
+    }
+}

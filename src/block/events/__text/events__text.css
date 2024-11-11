@@ -1,0 +1,20 @@
+.events__text {
+    max-width: 764px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 135%;
+    text-transform: uppercase;
+}
+
+.events__text:first-of-type {
+    margin-top: 42px;
+}
+
+@media (max-width: 900px) {
+    .events__text {
+        width: calc(100% - 40px);
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+}

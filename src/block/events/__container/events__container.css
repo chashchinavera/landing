@@ -1,0 +1,15 @@
+.events__container {
+    position: absolute;
+    top: -40px;
+    right: 72px;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .events__container {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 25px 0;
+    }
+}

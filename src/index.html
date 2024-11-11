@@ -50,13 +50,11 @@
           src="<%=require('./images/header/city.png')%>"
           alt="Город"
         />
-
         <img
           class="header__stroke"
           src="<%=require('./images/header/stroke.png')%>"
           alt="Обводка"
         />
-
         <div class="header__content">
           <img
             class="header__logo"
@@ -84,29 +82,60 @@
         </div>
       </div>
     </header>
-    <div class="marquee">
-      <ul class="marquee__wrapper">
-        <li class="marquee__text">
-          Дело помощи утопающим — дело рук самих утопающих!
-        </li>
-        <li class="marquee__text">
-          Шахматы двигают вперед не только культуру, но и экономику!
-        </li>
-        <li class="marquee__text">
-          Лед тронулся, господа присяжные заседатели!
-        </li>
-      </ul>
-      <ul class="marquee__wrapper">
-        <li class="marquee__text">
-          Дело помощи утопающим — дело рук самих утопающих!
-        </li>
-        <li class="marquee__text">
-          Шахматы двигают вперед не только культуру, но и экономику!
-        </li>
-        <li class="marquee__text">
-          Лед тронулся, господа присяжные заседатели!
-        </li>
-      </ul>
-    </div>
+
+    <main class="main">
+      <div class="marquee">
+        <ul class="marquee__wrapper">
+          <li class="marquee__text">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </li>
+          <li class="marquee__text">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </li>
+          <li class="marquee__text">
+            Лед тронулся, господа присяжные заседатели!
+          </li>
+        </ul>
+        <ul class="marquee__wrapper">
+          <li class="marquee__text">
+            Дело помощи утопающим — дело рук самих утопающих!
+          </li>
+          <li class="marquee__text">
+            Шахматы двигают вперед не только культуру, но и экономику!
+          </li>
+          <li class="marquee__text">
+            Лед тронулся, господа присяжные заседатели!
+          </li>
+        </ul>
+      </div>
+
+      <section class="events">
+        <div class="events__wrapper">
+          <span class="events__text">
+            Чтобы&nbsp;поддержать Международный васюкинский турнир
+          </span>
+          <div class="events__container">
+            <img
+              class="events__image"
+              src="<%=require('./images/events/players.png')%>"
+              alt="Игроки"
+            />
+            <img
+              class="events__image_background"
+              src="<%=require('./images/events/background.png')%>"
+              alt="Фон"
+            />
+          </div>
+          <span class="events__text">
+            посетите лекцию на&nbsp;тему:
+            <span class="events__text_mark"
+              ><br />«Плодотворная дебютная идея»</span
+            >
+          </span>
+        </div>
+      </section>
+    </main>
+
+    <!-- РАСКОММЕНТИРОВАТЬ АНИМАЦИЮ!!!! -->
   </body>
 </html>
